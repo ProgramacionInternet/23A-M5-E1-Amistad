@@ -1,93 +1,168 @@
 <!DOCTYPE html>
 <html>
-    <head>
-      <meta charset="utf-8" />
-      <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-      <title>CUCEI Seguro</title>
-      <meta name="viewport" content="width=device-width, initial-scale=1" />
-      <link rel="stylesheet" href="css/bootstrap.min.css">
-      <link rel="stylesheet" type="text/css" media="screen" href="main.css" />
-      <script src="main.js"></script>
-    </head>
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title>CUCEI Seguro</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <script src="js/bootstrap.min.js"></script>
+  </head>
   <body>
     <header>
       <div>
-        <nav class="navbar bg-body-tertiary" class="navbar" style="background-color: #e3f2fd;">
+        <nav
+          class="navbar bg-body-tertiary"
+          class="navbar"
+          style="background-color: #e3f2fd"
+          >
           <div class="container-fluid">
             <a class="navbar-brand" href="#">
-              <img src="Escudo_CUCEI.jpg" alt="Logo" width="30" height="24" class="d-inline-block align-text-top">
-              Centro Universitario de Ciencias Exactas e Ingenierias
+            <img
+              src="media/Escudo_CUCEI.jpg"
+              alt="Logo"
+              width="30"
+              height="24"
+              class="d-inline-block align-text-top"
+              />
+            Centro Universitario de Ciencias Exactas e Ingenierias
             </a>
           </div>
         </nav>
-        <nav style="--bs-breadcrumb-divider: '>';" aria-label="breadcrumb">
+        <nav style="--bs-breadcrumb-divider: '>'" aria-label="breadcrumb">
           <ol class="breadcrumb">
             <li class="breadcrumb-item"><a href="#">Inicio</a></li>
-            <li class="breadcrumb-item active" aria-current="page">Comentarios</li>
+            <li class="breadcrumb-item active" aria-current="page">
+              Comentarios
+            </li>
+            <li class="breadcrumb-item active" aria-current="page"><a href="noticias.html">Noticias</a>
+            </li>
           </ol>
         </nav>
       </div>
-
     </header>
     <main>
+      <!-- Primera Sección -->
       <div style="flex: 1">
-        <h1 class="text-center" class="fs-1" class="fw-light" style="color: #0d6efd" >CUCEI SEGURO</h1>
-        <h2 class="text-center">Asegura tu universidad y alrededores con CUCEI Seguro.</h2>
-        <p class="text-center" class="lh-base" >
-          CUCEI Seguro proporciona una manera fácil de informar, monitorear
-          delitos y actividades sospechosas en el campus universitario y sus
-          alrededores.
-        </p>
-        <div class="mb-3">
-          <label for="exampleFormControlInput1" class="form-label" style="color:  #6610f2" >Platicanos sobre tu experiencia ingresando tu correo institucional</label>
-          <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
+      <h1
+        class="text-center"
+        class="fs-1"
+        class="fw-light"
+        style="color: #0d6efd"
+        >
+        CUCEI SEGURO
+      </h1>
+      <h2 class="text-center">
+        Asegura tu universidad y alrededores con CUCEI Seguro.
+      </h2>
+      <p class="text-center" class="lh-base">
+        CUCEI Seguro proporciona una manera fácil de informar, monitorear
+        delitos y actividades sospechosas en el campus universitario y sus
+        alrededores.
+      </p>
+      <div style="display: flex">
+        <div style="flex: 1; display: flex; flex-direction: column; justify-content: center; align-items: flex-end">
+          <h2
+            class="text-4xl font-extrabold tracking-tight text-gray-900"
+            >
+            Monitorea los incidentes reportados<span class="text-primary"
+              >.</span
+              >
+          </h2>
+          <p style="padding-left: 120px;">
+            CUCEI Seguro proporciona herramientas para monitorear incidentes reportados
+            y realizar un seguimiento de su resolución.
+          </p>
+          <div class="mb-3">
+            <label for="exampleFormControlInput1" class="form-label" style="color: #6610f2">
+              laticanos sobre tu experiencia ingresando tu correo institucional
+            </label>
+            <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="correo@ejemplo.com"/>
+          </div>
+          <div>
+            <button type="submit" class="btn btn-primary">Ingresar</button>
+          </div>
         </div>
-        <div class="col-12" class="fixed-bottom">
-          <button type="submit" class="btn btn-primary">Iniciar</button>
+        <div style="flex: 1">
+          <img src="media/Building-Safety_Mesa-de-trabajo-1.svg" alt="ingeniera-edificio" width="500" height="600"/>
         </div>
       </div>
-      <div style="flex: 1">
-        <img
-          src="media/Building-Safety_Mesa-de-trabajo-1.svg"
-          alt="ingeniera-edificio"
-          width="500"
-          height="600"
-        />
+      <!-- Fin Primera Sección -->
+      <!-- Segunda Sección -->
+      <div class="container">
+        <div class="row gx-5">
+          <div class="col-lg-6 order-lg-2">
+            <div class="p-4">
+              <h2 class="display-4">
+                Reporta amenazas potenciales rápida y fácilmente
+                <span class="text-primary">.</span>
+              </h2>
+              </h2>
+              <p class="lead">
+                CUCEI Seguro te permite reportar rápida y fácilmente cualquier
+                actividad sospechosa o amenazas potenciales que pueda observar.
+              </p>
+            </div>
+          </div>
+          <div class="col-lg-6 order-lg-1">
+            <img
+              class="img-fluid rounded"
+              src="media\Insurance_Mesa-de-trabajo-1.svg"
+              alt="Reporta amenazas"
+              />
+          </div>
+        </div>
       </div>
+      <!-- Fin de de Segunda Sección -->
       <!-- Carrusel-->
-      <div id="carouselExampleAutoplaying" class="carousel slide" data-bs-ride="carousel">
+      <div
+        id="carouselExampleAutoplaying"
+        class="carousel slide"
+        data-bs-ride="carousel"
+        >
         <div class="carousel-inner">
           <div class="carousel-item active">
-            <img src="..." class="d-block w-100" alt="...">
+            <img src="..." class="d-block w-100" alt="..." />
           </div>
           <div class="carousel-item">
-            <img src="..." class="d-block w-100" alt="...">
+            <img src="..." class="d-block w-100" alt="..." />
           </div>
           <div class="carousel-item">
-            <img src="..." class="d-block w-100" alt="...">
+            <img src="..." class="d-block w-100" alt="..." />
           </div>
         </div>
-        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="prev">
-          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-          <span class="visually-hidden">Previous</span>
+        <button
+          class="carousel-control-prev"
+          type="button"
+          data-bs-target="#carouselExampleAutoplaying"
+          data-bs-slide="prev"
+          >
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
         </button>
-        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="next">
-          <span class="carousel-control-next-icon" aria-hidden="true"></span>
-          <span class="visually-hidden">Next</span>
+        <button
+          class="carousel-control-next"
+          type="button"
+          data-bs-target="#carouselExampleAutoplaying"
+          data-bs-slide="next"
+          >
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
         </button>
       </div>
-
     </main>
-    <footer>
- 
-
+    <footer class="bg-light py-4 mt-5">
+      <div class="container">
+        <div class="row">
+          <div class="col-12 col-lg-6">
+            <h6 class="font-weight-bold">Equipo 1</h6>
+            <p>Margarita Aguilar</p>
+            <p>Joshua Alvarez</p>
+            <p>Alejandro Vega</p>
+            <p>Josue Castillo</p>
+          </div>
+        </div>
+      </div>
     </footer>
-    <!-- <h2>Equipo 1</h2>
-    <p>Margarita Aguilar</p>
-    <p>Joshua Alvarez</p>  
-    <p>Alejandro Vega</p>  
-    <p>Josue Castillo</p> -->
-
-
   </body>
 </html>
